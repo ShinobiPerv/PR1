@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #6396dd;
+}
+main{
+    display: flex;
+        flex-flow: column wrap;
+        width: 100vw;
+        min-height: 100vh;
+        border: 2px red solid;
+        row-gap: 60px;
+}
+
+h1{
+    align-self: center;
+}
+ .firstGameList{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+}
+.Nintendo-Games{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.Nintendo-Games li img{
+    height: 170px;
+}
+
+#mmTXT{
+    position: relative;
+    left: 19px;
+}
+#pkTXT{
+    position: relative;
+    right: 96px; 
+}
+#mkTXT{
+    position: relative;
+    right: 61px; 
+}
+#sfTXT{
+    position: relative;
+    right: 61px; 
+}
+/*-------------playstation---------------*/
+.psNAMES{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.psGAMES{
+display: flex;
+flex-flow: row wrap;
+justify-content: space-evenly;
+list-style: none;
+}
+.psGAMES  img {
+    height: 150px;
+}
+/*-------------XBOX---------------*/
+    .xboxGameList{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+.xboxGAMES{
+    display:flex;
+    flex-flow: row wrap;  
+    justify-content: space-evenly;
+    list-style: none;
+}
+.xboxGAMES img{
+height: 150px;
+}
